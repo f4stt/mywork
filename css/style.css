@@ -172,13 +172,14 @@ h2 {
 
 .footer {
     padding: 35px 0;
-    display: flex;
-    justify-content: center;
     background: #020509;
 }
 
 .footer-content {
+    display: flex;
+    justify-content: center;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .button {
@@ -198,4 +199,24 @@ h2 {
 .button-image {
     display: flex;
     justify-content: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+.icon:hover {
+    fill: #727272;
+}
+
+.list-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-social>.list-item {
+    padding: 0 5px;
 }
